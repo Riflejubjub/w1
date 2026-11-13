@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "message": "Graduation audit report retrieved successfully",
+  "data": {
+    "student": {
+      "studentId": "6714421017",
+      "fullName": "burapakron Soithonf"
+      "faculty": "Faculty of Science and Technology",
+      "major": "Computer Science",
+      "academicYear": 2026
+    },
+    "creditSummary": {
+      "minimumCredits": 124,
+      "registeredCredits": 99,
+      "passedCredits": 99,
+      "remainingCredits": 19,
+      "status": "FAILED"
+    },
+    "academicSummary": {
+      "maximumStudyYears": 16,
+      "studyYears": 4,
+      "currentYearLevel": 3,
+      "status": "PASSED"
+    },
+    "gpaSummary": {
+      "minimumGPAX": 2.00,
+      "currentGPAX": 3.43,
+      "majorGPA": 0.00,
+      "status": "PASSED"
+    },
+    "skillAssessment": {
+      "computerSkill": {
+        "name": "Computer Skills",
+        "result": "PASS"
+      },
+      "languageSkill": {
+        "name": "Language Skills",
+        "result": "PASS"
+      },
+      "status": "PASSED"
+    },
+    "graduationStatus": {
+      "isEligible": false,
+      "status": "NOT_ELIGIBLE",
+      "message": "ยังไม่ผ่านเกณฑ์การสำเร็จการศึกษา"
+    }
+  },
+  "meta": {
+    "generatedAt": "2026-11-06T09:00:00+07:00",
+    "version": "1.0"
+  }
+}
